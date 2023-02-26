@@ -6,7 +6,17 @@
     <description>Recent content in Technology on nperumal - blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 14 Jan 2023 08:39:46 -0800</lastBuildDate><atom:link href="http://nperumal.github.io/categories/technology/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 25 Feb 2023 12:10:14 -0800</lastBuildDate><atom:link href="http://nperumal.github.io/categories/technology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>System Security Design - overview</title>
+      <link>http://nperumal.github.io/posts/systemsecurity/</link>
+      <pubDate>Sat, 25 Feb 2023 12:10:14 -0800</pubDate>
+      
+      <guid>http://nperumal.github.io/posts/systemsecurity/</guid>
+      <description>When designing a Software System, ensuring its security is of utmost importance. A security design of any software system should consider securities between
+various systems (internal and external), various layers of the same system (from Data layer to view) the system &amp;amp; the world (Actors) During the Software Design phase, Threat Modeling should be employed to recognize any potential internal or external threats. identifies all the threats (internal and external). (This article does not focus on guidance on constructing a threat model for a system.</description>
+    </item>
+    
     <item>
       <title>Clarity Design System - UX design and development system for all</title>
       <link>http://nperumal.github.io/posts/vmwareclarity/</link>

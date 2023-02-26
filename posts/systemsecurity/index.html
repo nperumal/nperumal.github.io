@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html cds-base-font="20">
     
-<title>nperumal - blog</title>
+<title>System Security Design - overview | nperumal - blog</title>
 <meta charset='utf-8'>
 <meta http-equiv='X-UA-Compatible' content='IE=edge'>
 <title>nperumal - blog</title>
@@ -28,45 +28,35 @@
                     <div class="clr-row">
                         <div class="clr-col-lg-9" >
                                 
-<main>
-    <div class="clr-row">
-        <div class="clr-col-lg-12" >
-            <div class="card" style="box-shadow: none;">
-                <div class="card-block">
-                    <h4 class="card-title"><a href="/posts/systemsecurity/">System Security Design - overview</a></h4>
-                    <span style="font-size: small;">2023-02-25 ( 2 mins read )</span>
-                    <div class="card-text">
-                        When designing a Software System, ensuring its security is of utmost importance. A security design of any software system should consider securities between
-various systems (internal and external), various layers of the same system (from Data layer to view) the system &amp; the world (Actors) During the Software Design phase, Threat Modeling should be employed to recognize any potential internal or external threats. identifies all the threats (internal and external). (This article does not focus on guidance on constructing a threat model for a system.
-                    </div>
+<div class="clr-row">
+    <div class="clr-col-lg-12" >
+        <div class="card" style="box-shadow: none;">
+            <div class="card-block">
+                <h4 class="card-title">System Security Design - overview</h4>
+                <div class="card-text">
+                    <p>When designing a Software System, ensuring its security is of utmost importance. A security design of any software system should consider securities between</p>
+<ul>
+<li>various systems (internal and external),</li>
+<li>various layers of the same system (from Data layer to view)</li>
+<li>the system &amp; the world (Actors)</li>
+</ul>
+<p>During the Software Design phase, <a href="https://owasp.org/www-community/Threat_Modeling_Process">Threat Modeling</a> should be employed to recognize any potential internal or external threats.  identifies all the threats (internal and external). (This article does not focus on guidance on constructing a threat model for a system. The linked resource is an excellent starting point.)</p>
+<h6 id="the-dilemma">The Dilemma</h6>
+<p>Architects are often caught between the need for an extremely secure system and a very open one. When employing extreme security measures, as Information Security teams would prefer, the system can become too restrictive and difficult to use, while an open system, with fewer security measures, is likely to invite trouble.</p>
+<h6 id="lets-accept-it">Let&rsquo;s Accept It</h6>
+<p>The old adage that &ldquo;the only truly secure system is one that is powered off, encased in concrete and locked in a lead-lined room with armed guards&rdquo; is of no use. To make a system useful, it must be open to interaction with other systems and people, thus inevitably making it vulnerable to threats due to its openness in terms of policies and access control lists.</p>
+<h6 id="the-guidelines">The Guidelines</h6>
+<p>Once we accept that the system will be subject to threats, we should use a threat model to identify them and devise a suitable mitigation plan. We should also strive to detect any potential exploits as soon as possible, and design effective monitoring and alerting systems in and around the system to quickly recognize them. Quick action should then be taken to prevent the exploit from causing further damage. Additionally, the system should be subject to regular policy reviews to ensure that it is difficult to predict and exploit.</p>
+<h6 id="the-proactive-and-the-reactive">The Proactive and The Reactive</h6>
+<p>Taking a proactive approach by implementing effective policies (e.g. credential rotation) and regularly reviewing them can make it more difficult to exploit the system. Additionally, setting up reactive monitoring and alerts can help mitigate any damage should an attack occur.</p>
+<h6 id="summary">Summary</h6>
+<p>Systems that are capable of being used are prone to threats, and the effectiveness of any security plan is determined by how quickly we can identify and counter them using proactive and reactive methods.</p>
+
                 </div>
             </div>
         </div>
-    </div><div class="clr-row">
-        <div class="clr-col-lg-12" >
-            <div class="card" style="box-shadow: none;">
-                <div class="card-block">
-                    <h4 class="card-title"><a href="/posts/vmwareclarity/">Clarity Design System - UX design and development system for all</a></h4>
-                    <span style="font-size: small;">2023-01-14 ( 4 mins read )</span>
-                    <div class="card-text">
-                        I came across vmware&rsquo;s Clarity Design System when I was looking to setup a blog (static website) for myself. Being in the Software Development (mostly on the backend development) for a good amount of my professional life, I could put together a website using nodejs or python fairly quickly but that needed a service to host the web server etc. Looking around the web, I decided to go with &lsquo;Hugo&rsquo; and &lsquo;GitHub&rsquo; for a free blog host.
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div><div class="clr-row">
-        <div class="clr-col-lg-12" >
-            <div class="card" style="box-shadow: none;">
-                <div class="card-block">
-                    <h4 class="card-title"><a href="/posts/my-first-post/">An autobiography by chatGPT-3</a></h4>
-                    <span style="font-size: small;">2022-12-26 ( 5 mins read )</span>
-                    <div class="card-text">
-                        “chatGPT chatGPT chatGPT“ The buzz around the tech world is so noisy that, by now, you probably heard of or played with chatGPT. When I started to learn more about chatGPT and was thinking how chatGPT-3 can help me in my day-to-day life. Well, I am a Software Engineer and hate writing engineering documents. A thought splash in my mind, “Hey, why don’t we ask chatGPT to do the work for me?
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div></main>
+    </div>
+</div>
 
                         </div>
                         <div class="clr-col-lg-3">
